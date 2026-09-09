@@ -32,20 +32,20 @@
                 <fieldset>
                     <legend>Dados Pessoais</legend>
 
-                    <p>
+                    <label>
                         <label for="nome">Nome completo: *</label><br>
                         <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo" required>
-                    </p>
+                    </label>
 
-                    <p>
+                    <label>
                         <label for="email">E-mail: *</label><br>
                         <input type="email" id="email" name="email" placeholder="seuemail@exemplo.com" required>
-                    </p>
+                    </label>
 
-                    <p>
+                    <label>
                         <label for="telefone">Telefone / WhatsApp: *</label><br>
                         <input type="tel" id="telefone" name="telefone" placeholder="(11) 99999-9999" required>
-                    </p>
+                    </label>
                 </fieldset>
 
                 <br>
@@ -53,7 +53,7 @@
                 <fieldset>
                     <legend>Detalhes do Agendamento</legend>
 
-                    <p>
+                    <label>
                         <label for="massagem">Escolha a massagem: *</label><br>
                         <input list="massagens" id="massagem" name="massagem" placeholder="Digite ou escolha uma massagem" required>
                         <datalist id="massagens">
@@ -68,41 +68,41 @@
                             <option value="Massagem Ayurvédica">
                             <option value="Revitalização">
                         </datalist>
-                    </p>
+                    </label>
 
-                    <p>
+                    <label>
                         <label for="data">Data preferida: *</label><br>
                         <input type="date" id="data" name="data" required>
-                    </p>
+                    </label>
 
-                    <p>
+                    <label>
                         <label for="periodo">Período de preferência:</label><br>
                         <select id="periodo" name="periodo">
                             <option value="manha">Manhã</option>
                             <option value="tarde">Tarde</option>
                             <option value="noite">Noite</option>
                         </select>
-                    </p>
+                    </label>
 
-                    <p>
+                    <label>
                         <label for="tensao">Qual seu nível de tensão atual? (0 a 10)</label><br>
                         <input type="range" id="tensao" name="tensao" min="0" max="10" value="5">
-                    </p>
+                    </label>
 
-                    <p>
+                    <label>
                         <label for="cor">Escolha a cor do ambiente da sua sessão:</label><br>
                         <input type="color" id="cor" name="cor" value="#e8c8d0">
-                    </p>
+                    </label>
 
-                    <p>
+                    <label>
                         <label for="mensagem">Deixe sua mensagem:</label><br>
                         <textarea id="mensagem" name="mensagem" rows="4" cols="50" placeholder="Escreva aqui suas dúvidas ou observações"></textarea>
-                    </p>
+                    </label>
                 </fieldset>
 
                 <br>
 
-                <p><mark>Atenção: chegue com 15 minutos de antecedência da sua sessão.</mark></p>
+                <label><mark>Atenção: chegue com 15 minutos de antecedência da sua sessão.</mark></label>
 
                 <input type="submit" value="Enviar Agendamento">
             </form>
@@ -112,8 +112,8 @@
 
         <section>
             <h2>Nossa Localização</h2>
-            <p>Rua Exemplo, 123 — Centro, São Paulo/SP</p>
-            <p>Horário de funcionamento: Segunda a Sábado, das 8h às 20h</p>
+            <label>Rua Exemplo, 123 — Centro, São Paulo/SP</label>
+            <label>Horário de funcionamento: Segunda a Sábado, das 8h às 20h</label>
 
             <iframe src="https://maps.google.com/maps?q=Sao+Paulo&output=embed" width="600" height="300"></iframe>
         </section>
@@ -125,28 +125,28 @@
 
             <details>
                 <summary><strong>Qual o horário de funcionamento?</strong></summary>
-                <p>Atendemos de segunda a sábado, das 8h às 20h.</p>
+                <label>Atendemos de segunda a sábado, das 8h às 20h.</label>
             </details>
 
             <br>
 
             <details>
                 <summary><strong>Preciso agendar com antecedência?</strong></summary>
-                <p>Recomendamos agendar com pelo menos 2 dias de antecedência para garantir o horário desejado.</p>
+                <label>Recomendamos agendar com pelo menos 2 dias de antecedência para garantir o horário desejado.</label>
             </details>
 
             <br>
 
             <details>
                 <summary><strong>Quais formas de pagamento são aceitas?</strong></summary>
-                <p>Aceitamos Pix, cartões de crédito e débito, e dinheiro em espécie.</p>
+                <label>Aceitamos Pix, cartões de crédito e débito, e dinheiro em espécie.</label>
             </details>
 
             <br>
 
             <details>
                 <summary><strong>Como funciona o atendimento pelo <abbr title="WhatsApp Business">WhatsApp Business</abbr>?</strong></summary>
-                <p>Nosso atendimento é humanizado e personalizado: confirmamos seu agendamento, tiramos dúvidas e acompanhamos seus resultados.</p>
+                <label>Nosso atendimento é humanizado e personalizado: confirmamos seu agendamento, tiramos dúvidas e acompanhamos seus resultados.</label>
             </details>
         </section>
 
@@ -154,16 +154,16 @@
 
         <section>
             <h2>Ocupação da Agenda</h2>
-            <p>Veja como está a disponibilidade desta semana:</p>
-            <p>Agenda da semana: <progress value="70" max="100"></progress> 70% ocupada</p>
-            <p>Satisfação dos clientes: <meter value="4.8" min="0" max="5"></meter> 4.8/5</p>
+            <label>Veja como está a disponibilidade desta semana:</label>
+            <label>Agenda da semana: <progress value="70" max="100"></progress> 70% ocupada</label>
+            <label>Satisfação dos clientes: <meter value="4.8" min="0" max="5"></meter> 4.8/5</label>
         </section>
 
         <hr>
 
         <aside>
             <blockquote>
-                <p>"Cuidar do corpo e da mente é o primeiro passo para o bem-estar. Nossa missão é acolher cada cliente com excelência."</p>
+                <label>"Cuidar do corpo e da mente é o primeiro passo para o bem-estar. Nossa missão é acolher cada cliente com excelência."</label>
                 <cite>— Fundadora da Beleza e Bem-estar</cite>
             </blockquote>
         </aside>
