@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Pagamentos</title>
+    <base target="_blank">
+</head>
+
+<body>
+
+    <h2>Página de Pagamentos</h2>
+
+    <form action="resultados.html" method="get">
+
+        <details>
+            <summary><strong>Selecionar Massagem</strong></summary>
+            <table border="1" cellspacing="0" cellpadding="10">
+                <tr>
+                    <th>Massagem</th>
+                    <th>Valor</th>
+                    <th>Selecionar</th>
+                </tr>
+                <tr>
+                    <td>Drenagem linfática</td>
+                    <td>R$ 130,00</td>
+                    <td align="center"><input type="radio" name="massagem" value="Drenagem linfática"></td>
+                </tr>
+                <tr>
+                    <td>Massagem relaxante</td>
+                    <td>R$ 150,00</td>
+                    <td align="center"><input type="radio" name="massagem" value="Massagem relaxante"></td>
+                </tr>
+                <tr>
+                    <td>Massagem modeladora</td>
+                    <td>R$ 170,00</td>
+                    <td align="center"><input type="radio" name="massagem" value="Massagem modeladora"></td>
+                </tr>
+                <tr>
+                    <td>Massagem redutora</td>
+                    <td>R$ 170,00</td>
+                    <td align="center"><input type="radio" name="massagem" value="Massagem redutora"></td>
+                </tr>
+                <tr>
+                    <td>Massagem desportiva</td>
+                    <td>R$ 150,00</td>
+                    <td align="center"><input type="radio" name="massagem" value="Massagem desportiva"></td>
+                </tr>
+                <tr>
+                    <td>Massagem terapêutica</td>
+                    <td>R$ 150,00</td>
+                    <td align="center"><input type="radio" name="massagem" value="Massagem terapêutica"></td>
+                </tr>
+                <tr>
+                    <td>Massagem facial</td>
+                    <td>R$ 150,00</td>
+                    <td align="center"><input type="radio" name="massagem" value="Massagem facial"></td>
+                </tr>
+                <tr>
+                    <td>Massagem com pedras quentes</td>
+                    <td>R$ 250,00</td>
+                    <td align="center"><input type="radio" name="massagem" value="Massagem com pedras quentes"></td>
+                </tr>
+                <tr>
+                    <td>Massagem ayurvédica</td>
+                    <td>R$ 200,00</td>
+                    <td align="center"><input type="radio" name="massagem" value="Massagem ayurvédica"></td>
+                </tr>
+                <tr>
+                    <td>Revitalização</td>
+                    <td>R$ 180,00</td>
+                    <td align="center"><input type="radio" name="massagem" value="Revitalização"></td>
+                </tr>
+            </table>
+        </details>
+
+        <br>
+
+        <details>
+            <summary><strong>Selecionar Forma de Pagamento</strong></summary>
+            <table border="1" cellspacing="0" cellpadding="10">
+                <tr>
+                    <td align="center">
+                        <input type="radio" name="pagamento" value="pix" checked><br>Pix
+                    </td>
+                    <td align="center">
+                        <input type="radio" name="pagamento" value="cartao"><br>Cartão
+                    </td>
+                    <td align="center">
+                        <input type="radio" name="pagamento" value="dinheiro"><br>Dinheiro
+                    </td>
+                </tr>
+            </table>
+        </details>
+
+        <br>
+
+        <input type="submit" value="Confirmar Pagamento">
+
+    </form>
+
+    <hr>
+
+    <details>
+        <summary>Detalhes do Pagamento</summary>
+        <p>Pix: 11.99999-9999</p>
+        <p>Cartão: aceitamos todos os cartões</p>
+        <p>Dinheiro: aceitamos dinheiro em espécie</p>
+    </details>
+
+    <hr>
+
+    <a href="../html/home.html">Home</a><br>
+    <a href="../html/serviços.html">Serviços</a><br>
+    <a href="../html/massagens.html">Massagens</a><br>
+    <a href="../html/resultados.html">Resultados</a>
+
+</body>
+
+</html>
