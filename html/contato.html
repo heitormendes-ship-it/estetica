@@ -18,26 +18,22 @@
         <section>
             <h2>Agende sua Sessão</h2>
             <label>Preencha o formulário abaixo e entraremos em contato para confirmar seu horário.</label>
-
             <br><br>
 
             <form action="resultados.html" method="get">
-
                 <fieldset>
                     <legend>Dados Pessoais</legend>
 
                     <label for="nome">Nome completo: *</label><br>
                     <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo" required>
-
                     <br><br>
 
                     <label for="email">E-mail: *</label><br>
                     <input type="email" id="email" name="email" placeholder="seuemail@exemplo.com" required>
-
                     <br><br>
 
                     <label for="telefone">Telefone / WhatsApp: *</label><br>
-                    <input type="tel" id="telefone" name="telefone" placeholder="(11) 99999-9999" required>
+                    <input type="tel" id="telefone" name="telefone" placeholder="(83) 99999-9999" required>
                 </fieldset>
 
                 <br>
@@ -46,8 +42,8 @@
                     <legend>Detalhes do Agendamento</legend>
 
                     <label for="massagem">Escolha a massagem: *</label><br>
-                    <input list="massagens" id="massagem" name="massagem" placeholder="Digite ou escolha uma massagem"
-                        required>
+                    <input type="text" list="massagens" id="massagem" name="massagem"
+                        placeholder="Digite ou escolha uma massagem" required>
                     <datalist id="massagens">
                         <option value="Drenagem Linfática">
                         <option value="Massagem Relaxante">
@@ -60,12 +56,10 @@
                         <option value="Massagem Ayurvédica">
                         <option value="Revitalização">
                     </datalist>
-
                     <br><br>
 
                     <label for="data">Data preferida: *</label><br>
                     <input type="date" id="data" name="data" required>
-
                     <br><br>
 
                     <label for="periodo">Período de preferência:</label><br>
@@ -74,17 +68,14 @@
                         <option value="tarde">Tarde</option>
                         <option value="noite">Noite</option>
                     </select>
-
                     <br><br>
 
                     <label for="tensao">Qual seu nível de tensão atual? (0 a 10)</label><br>
                     <input type="range" id="tensao" name="tensao" min="0" max="10" value="5">
-
                     <br><br>
 
                     <label for="cor">Escolha a cor do ambiente da sua sessão:</label><br>
                     <input type="color" id="cor" name="cor" value="#e8c8d0">
-
                     <br><br>
 
                     <label for="mensagem">Deixe sua mensagem:</label><br>
@@ -93,11 +84,8 @@
                 </fieldset>
 
                 <br>
-
                 <label><mark>Atenção: chegue com 15 minutos de antecedência da sua sessão.</mark></label>
-
                 <br><br>
-
                 <input type="submit" value="Enviar Agendamento">
             </form>
         </section>
@@ -106,47 +94,38 @@
 
         <section>
             <h2>Nossa Localização</h2>
-
             <label><strong>Endereço:</strong></label><br>
-            <label>Rua Exemplo, 123 — Centro, São Paulo/SP</label>
-
+            <label>BR-230, Km 22 — Água Fria, João Pessoa/PB — CEP 58053-000</label>
             <br><br>
-
             <label><strong>Horário de funcionamento:</strong></label><br>
             <label>Segunda a Sábado, das 8h às 20h</label>
-
             <br><br>
-
-            <iframe src="https://maps.google.com/maps?q=Sao+Paulo&output=embed" width="600" height="300"></iframe>
+            <iframe src="https://maps.google.com/maps?q=UNIPÊ,+BR-230+Km+22,+João+Pessoa,+PB&output=embed" width="600"
+                height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
         </section>
 
         <hr>
 
         <section>
             <h2>Dúvidas Frequentes</h2>
-
             <details>
                 <summary><strong>Qual o horário de funcionamento?</strong></summary>
                 <label>Atendemos de segunda a sábado, das 8h às 20h.</label>
             </details>
-
             <br>
-
             <details>
                 <summary><strong>Preciso agendar com antecedência?</strong></summary>
                 <label>Recomendamos agendar com pelo menos 2 dias de antecedência para garantir o horário
                     desejado.</label>
             </details>
-
             <br>
-
             <details>
                 <summary><strong>Quais formas de pagamento são aceitas?</strong></summary>
                 <label>Aceitamos Pix, cartões de crédito e débito, e dinheiro em espécie.</label>
             </details>
-
             <br>
-
             <details>
                 <summary><strong>Como funciona o atendimento pelo <abbr title="WhatsApp Business">WhatsApp
                             Business</abbr>?</strong></summary>
@@ -189,7 +168,7 @@
             <a href="pagamentos.html">Pagamentos</a> |
             <a href="resultados.html">Resultados</a> |
             <a href="contato.html">Contato</a> |
-            <a href="Orkshop.html">Orkshop</a> |
+            <a href="produtos.html">Produtos</a> |
             <a href="audio.html">Audio</a>
         </nav>
     </footer>
