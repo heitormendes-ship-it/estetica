@@ -51,34 +51,6 @@ estetica/
 
 ---
 
-## 🚀 Como executar
-
-### 1. Clone o repositório
-
-```bash
-git clone https://github.com/heitormendes-ship-it/estetica.git
-```
-
-### 2. Entre na pasta
-
-```bash
-cd estetica
-```
-
-### 3. Abra o projeto
-
-Entre na pasta `html/` e abra o arquivo principal `.html` no navegador.
-
-> 💡 Para uma experiência melhor durante o desenvolvimento, você pode utilizar uma extensão como o **Live Server** no VS Code.
-
----
-
-## 🖥️ Demonstração
-
-Em breve, esta seção poderá apresentar imagens, GIFs ou um link para uma demonstração online do projeto.
-
----
-
 ## 📚 Aprendizados
 
 Durante o desenvolvimento deste projeto, estou colocando em prática conhecimentos relacionados a:
