@@ -82,7 +82,7 @@ Algumas melhorias que podem ser adicionadas futuramente:
 
 **Heitor Mendes Crispim**
 
-Estudante de Ciência da Computação e desenvolvedor em formação.
+Estudante de Ciência da Computação
 
 🔗 GitHub: [@heitormendes-ship-it](https://github.com/heitormendes-ship-it)
 
