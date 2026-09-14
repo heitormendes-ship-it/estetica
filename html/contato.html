@@ -13,6 +13,11 @@
 
 <body>
 
+    <header>
+        <h1>Contato</h1>
+        <label>Agende sua sessão ou tire suas dúvidas conosco</label>
+    </header>
+
     <main>
 
         <section>
@@ -78,6 +83,10 @@
                     <input type="color" id="cor" name="cor" value="#e8c8d0">
                     <br><br>
 
+                    <label for="arquivo">Envie um arquivo (opcional):</label><br>
+                    <input type="file" id="arquivo" name="arquivo">
+                    <br><br>
+
                     <label for="mensagem">Deixe sua mensagem:</label><br>
                     <textarea id="mensagem" name="mensagem" rows="4" cols="50"
                         placeholder="Escreva aqui suas dúvidas ou observações"></textarea>
@@ -94,16 +103,18 @@
 
         <section>
             <h2>Nossa Localização</h2>
-            <label><strong>Endereço:</strong></label><br>
-            <label>BR-230, Km 22 — Água Fria, João Pessoa/PB — CEP 58053-000</label>
-            <br><br>
-            <label><strong>Horário de funcionamento:</strong></label><br>
-            <label>Segunda a Sábado, das 8h às 20h</label>
-            <br><br>
-            <iframe src="https://maps.google.com/maps?q=UNIPÊ,+BR-230+Km+22,+João+Pessoa,+PB&output=embed" width="600"
-                height="300" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade">
-            </iframe>
+            <article>
+                <label><strong>Endereço:</strong></label><br>
+                <label>BR-230, Km 22 — Água Fria, João Pessoa/PB — CEP 58053-000</label>
+                <br><br>
+                <label><strong>Horário de funcionamento:</strong></label><br>
+                <label>Segunda a Sábado, das 8h às 20h</label>
+                <br><br>
+                <iframe src="https://maps.google.com/maps?q=UNIPÊ,+BR-230+Km+22,+João+Pessoa,+PB&output=embed"
+                    width="600" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </article>
         </section>
 
         <hr>
